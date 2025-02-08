@@ -1,0 +1,16 @@
+[package]
+name = "CastleVaniaGame"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13"
+rand = "0.8.5"
+noise = "0.8.2"
+bevy_prototype_lyon = "0.13.0"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
