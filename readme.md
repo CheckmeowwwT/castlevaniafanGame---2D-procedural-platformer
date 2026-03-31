@@ -1,8 +1,12 @@
 # CastlevaniaFanGame — Procedural Platformer in Rust/Bevy
 
+
+# Note: I used Bevy 0.12/0.13. Bevy has changed significantly since then and so this probably will not compile on current versions without migration work. The project is ABANDONED.
+
+
 This is a 2D side-scrolling platformer I built using Bevy. It is platformer with procedural level generation, with seeded RNG, dash mechanics, sprite sheet animation, parallax backgrounds via Perlin noise, level transitions with fade overlays, game over/restart, and BFS-based level solvability validation.
 
-**Note:** I used Bevy 0.12/0.13. Bevy has changed significantly since then and so this probably will not compile on current versions without migration work. The project is abandoned. Please peruse through the remains.
+
 
 ## What it does
 
